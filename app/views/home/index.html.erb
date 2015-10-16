@@ -1,0 +1,18 @@
+<div id="home" class="container">
+  <h1>#rarelilb</h1>
+  <div class="owl-carousel">
+    <% i = 1
+       numWisdoms = 130
+       while i < numWisdoms
+    %>
+        <div class="owl-item">
+          <%= image_tag 'wisdoms/wisdom' + "%05o" % i.to_s + '.png'%>
+        </div>
+    <% i+=1
+       end %>
+  </div>
+</div>
+
+<script>
+
+</script>

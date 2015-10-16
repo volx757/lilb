@@ -1,0 +1,22 @@
+body {
+  background: black;
+  .owl-carousel {
+    margin-top: 4%;
+    .owl-item {
+      width: 100%;
+
+      img {
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+        max-height: 530px;
+      }
+    }
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 5em;
+    color: red;
+  }
+}
