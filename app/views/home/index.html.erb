@@ -1,32 +1,29 @@
 <div id="home" class="container">
   <h1>#rarelilb</h1>
+
   <div class="owl-carousel">
     <%
-       numWisdoms = 130
+       num_wisdoms = 130
        i = 1 + rand(130)
-       split = numWisdoms - i
-
-       while i < numWisdoms
+       split = num_wisdoms - i
+       while i < num_wisdoms
     %>
         <div class="owl-item">
-          <%= image_tag 'wisdoms/wisdom' + "%05o" % i.to_s + '.png'%>
+          <%= image_tag 'wisdoms/wisdom' + "%05o" % i.to_s + '.png' %>
         </div>
     <% i+=1
        end
-
        i = 1
-
-    while i < split
+       while i < split
     %>
         <div class="owl-item">
-          <%= image_tag 'wisdoms/wisdom' + "%05o" % i.to_s + '.png'%>
+          <%= image_tag 'wisdoms/wisdom' + "%05o" % i.to_s + '.png' %>
         </div>
     <% i+=1
-      end
+       end
     %>
   </div>
+ <!-- <div id="thisone">
+    COMMUNE
+  </div>-->
 </div>
-
-<script>
-
-</script>

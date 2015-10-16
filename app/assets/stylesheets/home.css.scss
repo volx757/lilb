@@ -20,3 +20,21 @@ body {
     color: red;
   }
 }
+#thisone{
+  background: white;
+  border-radius: 2px;
+  transition: 300ms ;
+  -webkit-transition: 300ms ;
+  height: 200px;
+  width: 140px;
+  left: 5%;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 2;
+  &:hover{
+    border-radius: 6px;
+    transform: scale(1.2);
+  }
+}
