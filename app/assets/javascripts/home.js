@@ -7,7 +7,9 @@ $(document).ready(function(){
         loop: true
     })
 
-    owl.trigger('next.owl.carousel').trigger('next.owl.carousel').trigger('next.owl.carousel')
+
+
+    owl.trigger('next.owl.carousel').trigger('next.owl.carousel').trigger('next.owl.carousel').trigger('next.owl.carousel')
 
     $('#thisone').on('click', function () {
         fbShare('https://www.rarelilb.com', "Rare Lil'B", 'rare facebook posts by the Based God', 'http://localhost:3000/public/wisdom00239.png', 600, 300)
